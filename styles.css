@@ -1,0 +1,41 @@
+/* Element Selector */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* ID Selector */
+  #main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Class Selector */
+  .content {
+    border: 1px solid #ccc; /* ทดสอบ border */
+    margin-bottom: 10px;         /* ทดสอบ margin */
+    padding: 20px;          /* ทดสอบ padding */
+  }
+  
+  .highlight {
+    background-color: #f0f0f0;
+  }
+  
+  /* Descendant Selector */
+  .content p {
+    color: #555;
+  }
+  
+  /* Footer */
+  #main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
